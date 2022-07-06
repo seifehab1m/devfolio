@@ -1,0 +1,291 @@
+body
+{
+    background-color: rgb(236, 236, 236);
+}
+.navbar-nav li {
+    padding-left: 20px;
+    font-size: 20px !important; 
+}
+
+.nav-home
+{
+    position: relative;
+    
+}
+
+
+ .navbar-nav .nav-home ::after{
+    position: absolute;
+    content: "";
+    bottom: 8px;
+    left: 28px;
+    width: 60%;
+    height: 2px;
+    background-color: white;
+}
+.nav2
+{
+    position: relative;
+    
+}
+.nav2::after
+{
+    position: absolute;
+    content: "";
+    bottom: 8px;
+    left: 28px;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: all 1s;
+}
+.nav2:hover:after
+{
+    width: 60%;
+    transition: all 1s;
+    
+}
+
+.navbar-brand 
+{
+    font-size: 30px !important;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+    margin-top: 0;
+}
+header
+{
+    background-image: url(../images/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+header h1{
+    font-size: 4.5rem;
+   
+}
+
+header h2{
+    font-size: 2.5rem;
+}
+header h2::before{
+    font-size: 2.5rem;
+    content: "";
+    animation: animation 3s  infinite alternate ;
+}
+@keyframes animation
+{
+    0%{ content: "I"; }
+    2%{ content: "I'm"; }
+    4%{ content: "I'm a"; }
+    8%{ content: "I'm a f"; }
+    10%{ content: "I'm a fr"; }
+    12%{ content: "I'm a fre"; }
+    14%{ content: "I'm a free"; }
+    16%{ content: "I'm a freel"; }
+    18%{ content: "I'm a freela"; }
+    20%{ content: "I'm a freelan"; }
+    22%{ content: "I'm a freelanc"; }
+    24%{ content: "I'm a freelance"; }
+    26%{ content: "I'm a freelancer"; }
+    28%{ content: "I'm a freelance"; }
+    30%{ content: "I'm a freelanc"; }
+    32%{ content: "I'm a freelan"; }
+    34%{ content: "I'm a freela"; }
+    36%{ content: "I'm a freel"; }
+    40%{ content: "I'm a fre"; }
+    42%{ content: "I'm a fr"; }
+    50%{ content: "I'm a f"; }
+    53%{ content: "I'm a D"; }
+    56%{ content: "I'm a De"; }
+    69%{ content: "I'm a Des"; }
+    62%{ content: "I'm a Desi"; }
+    65%{ content: "I'm a Desig"; }
+    68%{ content: "I'm a Design"; }
+    71%{ content: "I'm a Designe"; }
+    74%{ content: "I'm a Designer"; }
+    77%{ content: "I'm a Designe"; }     
+    80%{ content: "I'm a Design"; }
+    83%{ content: "I'm a Desig"; }
+    85%{ content: "I'm a Desi"; }
+    88%{ content: "I'm a Des"; }
+    92%{ content: "I'm a De"; }
+    95%{ content: "I'm a D"; }
+    100%{ content: "I'm a freelancer"; }
+
+}   
+.skills .progress
+{
+    background-color: #cde1f8 !important;
+}
+.border
+{
+    transition: all 1s;
+}
+.card-services:hover .border 
+{
+    border-color: rgb(209, 204, 204) !important;
+    background-color: rgb(39, 39, 223);
+    transition: all 1s;
+    
+}
+.card-services i
+{
+    transition: all 1s;
+}
+.card-services:hover i 
+{
+   color: white;
+   transition: all 1s;
+    
+}
+.background 
+{
+   
+    background-image:   linear-gradient( rgba(16, 44, 206, 0.52), rgba(84, 19, 235, 0.73)),
+    url('../images/back2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.card-portofolio{
+    overflow: hidden;
+    
+}
+.card-portofolio img
+{
+    transition: all 1s;
+}
+.card-portofolio:hover img
+{
+    transform: scale(2);
+    transition: all 1s;
+}
+.card-slider
+{
+    height: 50% !important;
+}
+.card-slider img
+{
+    
+    width: 150px !important;
+    height: 150px !important;
+    margin: auto;
+    border: 0px solid #cde1f8;
+    border-radius: 50%;
+    
+}
+.indicator-btn
+{
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+}
+.carousel-indicators
+{
+    position: relative !important;
+}
+.card-blog
+{
+    position: relative;
+}
+.card-blog .travel
+{
+    width:25%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 8px 0px;
+    background-color: blue;
+}
+.card-blog .img-blog
+{
+    position: relative;
+}
+.card-blog .travel
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,  50%);
+}
+.travel h5
+{
+        color: white;
+}
+.title-send-message h2
+{
+    position: relative;
+}
+
+.title-send-message h2::after
+{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    left: 0;
+    bottom: 30px;
+    background-color: blue;
+}
+.btn-msg a
+{
+    color: white;
+    background-color: blue;
+    padding: 10px 15px;
+    border:  3px solid transparent;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+
+}
+
+.btn-msg:hover a
+{
+    border:  3px solid #cde1f8 !important;
+    transition: all 0.5s;
+}
+.title-send-message h2
+{
+    position: relative;
+}
+
+.title-send-message h2::after
+{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 3px;
+    left: 0;
+    bottom: 30px;
+    background-color: blue;
+}
+.para-about p{
+    font-size: 1.25rem;
+    font-weight: 300;
+
+}
+.get-in-touch-icons i span {
+    font-size: 14px;
+    color: black;
+    padding-left: 10px;
+}
+.social-icons i
+{
+    padding: 10px 10px;
+    font-size: 20px;
+    border: 3px solid #2c72c2;
+    border-radius: 50%;
+    transition: all 0.5s;
+
+}
+.social-icons i:hover
+{
+    border: 3px solid #cde1f8;
+    color: white;
+    background-color: #2c72c2;
+    transition: all 0.5s;
+}
